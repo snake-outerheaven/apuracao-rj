@@ -1,0 +1,3076 @@
+{
+  "geradoEm": "2026-10-25T21:45:00.000Z",
+  "atualizadoTse": "2026-10-25T21:45:00.000Z",
+  "fonte": "mock",
+  "estado": {
+    "codigo": "RJ",
+    "nome": "Rio de Janeiro",
+    "totais": {
+      "secoesTotais": 37817,
+      "secoesApuradas": 30148,
+      "percentualApurado": 79.72,
+      "votosValidos": 7386246,
+      "brancos": 137080,
+      "nulos": 284904,
+      "abstencoes": 2441903,
+      "eleitorado": 12857522
+    },
+    "candidatos": [
+      {
+        "numero": "91",
+        "nome": "Candidato Teste A",
+        "partido": "TESTE-A",
+        "votos": 3735113,
+        "percentual": 50.57,
+        "eleito": false
+      },
+      {
+        "numero": "92",
+        "nome": "Candidata Teste B",
+        "partido": "TESTE-B",
+        "votos": 3651133,
+        "percentual": 49.43,
+        "eleito": false
+      }
+    ]
+  },
+  "municipios": [
+    {
+      "codigo": "58017",
+      "nome": "Angra dos Reis",
+      "ibge": "3300100",
+      "totais": {
+        "secoesTotais": 95,
+        "secoesApuradas": 95,
+        "percentualApurado": 100,
+        "votosValidos": 24020,
+        "brancos": 583,
+        "nulos": 841,
+        "abstencoes": 7009,
+        "eleitorado": 32453
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 15733,
+          "percentual": 65.5,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 8287,
+          "percentual": 34.5,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58181",
+      "nome": "Aperibé",
+      "ibge": "3300159",
+      "totais": {
+        "secoesTotais": 159,
+        "secoesApuradas": 140,
+        "percentualApurado": 88.05,
+        "votosValidos": 36022,
+        "brancos": 873,
+        "nulos": 1232,
+        "abstencoes": 9605,
+        "eleitorado": 54211
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 21375,
+          "percentual": 59.34,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 14647,
+          "percentual": 40.66,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58033",
+      "nome": "Araruama",
+      "ibge": "3300209",
+      "totais": {
+        "secoesTotais": 394,
+        "secoesApuradas": 284,
+        "percentualApurado": 72.08,
+        "votosValidos": 70358,
+        "brancos": 1446,
+        "nulos": 1879,
+        "abstencoes": 22861,
+        "eleitorado": 133938
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 44536,
+          "percentual": 63.3,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 25822,
+          "percentual": 36.7,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58220",
+      "nome": "Areal",
+      "ibge": "3300225",
+      "totais": {
+        "secoesTotais": 876,
+        "secoesApuradas": 712,
+        "percentualApurado": 81.28,
+        "votosValidos": 175510,
+        "brancos": 2362,
+        "nulos": 4943,
+        "abstencoes": 59233,
+        "eleitorado": 297800
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 103592,
+          "percentual": 59.02,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 71918,
+          "percentual": 40.98,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58408",
+      "nome": "Armação dos Búzios",
+      "ibge": "3300233",
+      "totais": {
+        "secoesTotais": 414,
+        "secoesApuradas": 399,
+        "percentualApurado": 96.38,
+        "votosValidos": 103694,
+        "brancos": 2305,
+        "nulos": 4529,
+        "abstencoes": 25001,
+        "eleitorado": 140624
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 56893,
+          "percentual": 54.87,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 46801,
+          "percentual": 45.13,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59277",
+      "nome": "Arraial do Cabo",
+      "ibge": "3300258",
+      "totais": {
+        "secoesTotais": 85,
+        "secoesApuradas": 70,
+        "percentualApurado": 82.35,
+        "votosValidos": 16806,
+        "brancos": 348,
+        "nulos": 595,
+        "abstencoes": 6027,
+        "eleitorado": 28870
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 10414,
+          "percentual": 61.97,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 6392,
+          "percentual": 38.03,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58050",
+      "nome": "Barra do Piraí",
+      "ibge": "3300308",
+      "totais": {
+        "secoesTotais": 512,
+        "secoesApuradas": 444,
+        "percentualApurado": 86.72,
+        "votosValidos": 113176,
+        "brancos": 2732,
+        "nulos": 3510,
+        "abstencoes": 31628,
+        "eleitorado": 174178
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 56622,
+          "percentual": 50.03,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 56554,
+          "percentual": 49.97,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58076",
+      "nome": "Barra Mansa",
+      "ibge": "3300407",
+      "totais": {
+        "secoesTotais": 156,
+        "secoesApuradas": 123,
+        "percentualApurado": 78.85,
+        "votosValidos": 30625,
+        "brancos": 412,
+        "nulos": 1183,
+        "abstencoes": 9564,
+        "eleitorado": 52996
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 19306,
+          "percentual": 63.04,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 11319,
+          "percentual": 36.96,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58041",
+      "nome": "Belford Roxo",
+      "ibge": "3300456",
+      "totais": {
+        "secoesTotais": 341,
+        "secoesApuradas": 341,
+        "percentualApurado": 100,
+        "votosValidos": 80937,
+        "brancos": 2045,
+        "nulos": 2959,
+        "abstencoes": 29998,
+        "eleitorado": 115939
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 58275,
+          "percentual": 72,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 22662,
+          "percentual": 28,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58092",
+      "nome": "Bom Jardim",
+      "ibge": "3300506",
+      "totais": {
+        "secoesTotais": 531,
+        "secoesApuradas": 444,
+        "percentualApurado": 83.62,
+        "votosValidos": 114190,
+        "brancos": 2895,
+        "nulos": 4657,
+        "abstencoes": 29327,
+        "eleitorado": 180670
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 58733,
+          "percentual": 51.43,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 55457,
+          "percentual": 48.57,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58114",
+      "nome": "Bom Jesus do Itabapoana",
+      "ibge": "3300605",
+      "totais": {
+        "secoesTotais": 145,
+        "secoesApuradas": 123,
+        "percentualApurado": 84.83,
+        "votosValidos": 27802,
+        "brancos": 635,
+        "nulos": 1162,
+        "abstencoes": 12359,
+        "eleitorado": 49463
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 14090,
+          "percentual": 50.68,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 13712,
+          "percentual": 49.32,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58130",
+      "nome": "Cabo Frio",
+      "ibge": "3300704",
+      "totais": {
+        "secoesTotais": 241,
+        "secoesApuradas": 235,
+        "percentualApurado": 97.51,
+        "votosValidos": 53670,
+        "brancos": 1352,
+        "nulos": 2237,
+        "abstencoes": 22775,
+        "eleitorado": 82078
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 38640,
+          "percentual": 72,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 15030,
+          "percentual": 28,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58157",
+      "nome": "Cachoeiras de Macacu",
+      "ibge": "3300803",
+      "totais": {
+        "secoesTotais": 85,
+        "secoesApuradas": 83,
+        "percentualApurado": 97.65,
+        "votosValidos": 20774,
+        "brancos": 452,
+        "nulos": 686,
+        "abstencoes": 6360,
+        "eleitorado": 28954
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 11743,
+          "percentual": 56.53,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 9031,
+          "percentual": 43.47,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58173",
+      "nome": "Cambuci",
+      "ibge": "3300902",
+      "totais": {
+        "secoesTotais": 186,
+        "secoesApuradas": 156,
+        "percentualApurado": 83.87,
+        "votosValidos": 36465,
+        "brancos": 480,
+        "nulos": 1627,
+        "abstencoes": 14441,
+        "eleitorado": 63207
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 24633,
+          "percentual": 67.55,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 11832,
+          "percentual": 32.45,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58190",
+      "nome": "Campos dos Goytacazes",
+      "ibge": "3301009",
+      "totais": {
+        "secoesTotais": 137,
+        "secoesApuradas": 117,
+        "percentualApurado": 85.4,
+        "votosValidos": 28745,
+        "brancos": 483,
+        "nulos": 1241,
+        "abstencoes": 9205,
+        "eleitorado": 46455
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 15031,
+          "percentual": 52.29,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 13714,
+          "percentual": 47.71,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58211",
+      "nome": "Cantagalo",
+      "ibge": "3301108",
+      "totais": {
+        "secoesTotais": 183,
+        "secoesApuradas": 132,
+        "percentualApurado": 72.13,
+        "votosValidos": 32684,
+        "brancos": 503,
+        "nulos": 918,
+        "abstencoes": 10833,
+        "eleitorado": 62298
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 18753,
+          "percentual": 57.38,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 13931,
+          "percentual": 42.62,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58300",
+      "nome": "Carapebus",
+      "ibge": "3300936",
+      "totais": {
+        "secoesTotais": 182,
+        "secoesApuradas": 131,
+        "percentualApurado": 71.98,
+        "votosValidos": 32962,
+        "brancos": 528,
+        "nulos": 1422,
+        "abstencoes": 9585,
+        "eleitorado": 61821
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 20417,
+          "percentual": 61.94,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 12545,
+          "percentual": 38.06,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58068",
+      "nome": "Cardoso Moreira",
+      "ibge": "3301157",
+      "totais": {
+        "secoesTotais": 331,
+        "secoesApuradas": 271,
+        "percentualApurado": 81.87,
+        "votosValidos": 70159,
+        "brancos": 1252,
+        "nulos": 2196,
+        "abstencoes": 18616,
+        "eleitorado": 112642
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 39218,
+          "percentual": 55.9,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 30941,
+          "percentual": 44.1,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58238",
+      "nome": "Carmo",
+      "ibge": "3301207",
+      "totais": {
+        "secoesTotais": 185,
+        "secoesApuradas": 133,
+        "percentualApurado": 71.89,
+        "votosValidos": 30043,
+        "brancos": 516,
+        "nulos": 1240,
+        "abstencoes": 13429,
+        "eleitorado": 62912
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 15037,
+          "percentual": 50.05,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 15006,
+          "percentual": 49.95,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58254",
+      "nome": "Casimiro de Abreu",
+      "ibge": "3301306",
+      "totais": {
+        "secoesTotais": 532,
+        "secoesApuradas": 492,
+        "percentualApurado": 92.48,
+        "votosValidos": 114161,
+        "brancos": 1857,
+        "nulos": 5286,
+        "abstencoes": 46073,
+        "eleitorado": 180985
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 72884,
+          "percentual": 63.84,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 41277,
+          "percentual": 36.16,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58165",
+      "nome": "Comendador Levy Gasparian",
+      "ibge": "3300951",
+      "totais": {
+        "secoesTotais": 113,
+        "secoesApuradas": 96,
+        "percentualApurado": 84.96,
+        "votosValidos": 22870,
+        "brancos": 489,
+        "nulos": 782,
+        "abstencoes": 8558,
+        "eleitorado": 38490
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 15714,
+          "percentual": 68.71,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 7156,
+          "percentual": 31.29,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58270",
+      "nome": "Conceição de Macabu",
+      "ibge": "3301405",
+      "totais": {
+        "secoesTotais": 179,
+        "secoesApuradas": 157,
+        "percentualApurado": 87.71,
+        "votosValidos": 39108,
+        "brancos": 761,
+        "nulos": 1039,
+        "abstencoes": 12590,
+        "eleitorado": 60995
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 20221,
+          "percentual": 51.71,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 18887,
+          "percentual": 48.29,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58297",
+      "nome": "Cordeiro",
+      "ibge": "3301504",
+      "totais": {
+        "secoesTotais": 883,
+        "secoesApuradas": 784,
+        "percentualApurado": 88.79,
+        "votosValidos": 196950,
+        "brancos": 4129,
+        "nulos": 8357,
+        "abstencoes": 57144,
+        "eleitorado": 300242
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 101132,
+          "percentual": 51.35,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 95818,
+          "percentual": 48.65,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58319",
+      "nome": "Duas Barras",
+      "ibge": "3301603",
+      "totais": {
+        "secoesTotais": 216,
+        "secoesApuradas": 164,
+        "percentualApurado": 75.93,
+        "votosValidos": 39052,
+        "brancos": 887,
+        "nulos": 1349,
+        "abstencoes": 14403,
+        "eleitorado": 73350
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 25154,
+          "percentual": 64.41,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 13898,
+          "percentual": 35.59,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58335",
+      "nome": "Duque de Caxias",
+      "ibge": "3301702",
+      "totais": {
+        "secoesTotais": 207,
+        "secoesApuradas": 155,
+        "percentualApurado": 74.88,
+        "votosValidos": 35240,
+        "brancos": 673,
+        "nulos": 1057,
+        "abstencoes": 15606,
+        "eleitorado": 70214
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 18083,
+          "percentual": 51.31,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 17157,
+          "percentual": 48.69,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58351",
+      "nome": "Engenheiro Paulo de Frontin",
+      "ibge": "3301801",
+      "totais": {
+        "secoesTotais": 784,
+        "secoesApuradas": 720,
+        "percentualApurado": 91.84,
+        "votosValidos": 179674,
+        "brancos": 2352,
+        "nulos": 5620,
+        "abstencoes": 57006,
+        "eleitorado": 266399
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 97148,
+          "percentual": 54.07,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 82526,
+          "percentual": 45.93,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58106",
+      "nome": "Guapimirim",
+      "ibge": "3301850",
+      "totais": {
+        "secoesTotais": 284,
+        "secoesApuradas": 284,
+        "percentualApurado": 100,
+        "votosValidos": 69135,
+        "brancos": 1506,
+        "nulos": 2958,
+        "abstencoes": 22941,
+        "eleitorado": 96540
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 37975,
+          "percentual": 54.93,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 31160,
+          "percentual": 45.07,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58262",
+      "nome": "Iguaba Grande",
+      "ibge": "3301876",
+      "totais": {
+        "secoesTotais": 625,
+        "secoesApuradas": 584,
+        "percentualApurado": 93.44,
+        "votosValidos": 154102,
+        "brancos": 2827,
+        "nulos": 5057,
+        "abstencoes": 36496,
+        "eleitorado": 212416
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 83434,
+          "percentual": 54.14,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 70668,
+          "percentual": 45.86,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58378",
+      "nome": "Itaboraí",
+      "ibge": "3301900",
+      "totais": {
+        "secoesTotais": 226,
+        "secoesApuradas": 207,
+        "percentualApurado": 91.59,
+        "votosValidos": 49663,
+        "brancos": 1152,
+        "nulos": 1845,
+        "abstencoes": 17608,
+        "eleitorado": 76718
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 28857,
+          "percentual": 58.11,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 20806,
+          "percentual": 41.89,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58394",
+      "nome": "Itaguaí",
+      "ibge": "3302007",
+      "totais": {
+        "secoesTotais": 499,
+        "secoesApuradas": 376,
+        "percentualApurado": 75.35,
+        "votosValidos": 85554,
+        "brancos": 2095,
+        "nulos": 3452,
+        "abstencoes": 36678,
+        "eleitorado": 169579
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 51632,
+          "percentual": 60.35,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 33922,
+          "percentual": 39.65,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59293",
+      "nome": "Italva",
+      "ibge": "3302056",
+      "totais": {
+        "secoesTotais": 421,
+        "secoesApuradas": 370,
+        "percentualApurado": 87.89,
+        "votosValidos": 87887,
+        "brancos": 2115,
+        "nulos": 3545,
+        "abstencoes": 32335,
+        "eleitorado": 143233
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 45214,
+          "percentual": 51.45,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 42673,
+          "percentual": 48.55,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58416",
+      "nome": "Itaocara",
+      "ibge": "3302106",
+      "totais": {
+        "secoesTotais": 82,
+        "secoesApuradas": 71,
+        "percentualApurado": 86.59,
+        "votosValidos": 16790,
+        "brancos": 345,
+        "nulos": 685,
+        "abstencoes": 6174,
+        "eleitorado": 27712
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 9366,
+          "percentual": 55.78,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 7424,
+          "percentual": 44.22,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58432",
+      "nome": "Itaperuna",
+      "ibge": "3302205",
+      "totais": {
+        "secoesTotais": 641,
+        "secoesApuradas": 552,
+        "percentualApurado": 86.12,
+        "votosValidos": 137147,
+        "brancos": 2472,
+        "nulos": 4883,
+        "abstencoes": 43119,
+        "eleitorado": 217872
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 92796,
+          "percentual": 67.66,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 44351,
+          "percentual": 32.34,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58440",
+      "nome": "Itatiaia",
+      "ibge": "3302254",
+      "totais": {
+        "secoesTotais": 155,
+        "secoesApuradas": 140,
+        "percentualApurado": 90.32,
+        "votosValidos": 33400,
+        "brancos": 711,
+        "nulos": 1013,
+        "abstencoes": 12340,
+        "eleitorado": 52548
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 16861,
+          "percentual": 50.48,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 16539,
+          "percentual": 49.52,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58149",
+      "nome": "Japeri",
+      "ibge": "3302270",
+      "totais": {
+        "secoesTotais": 728,
+        "secoesApuradas": 710,
+        "percentualApurado": 97.53,
+        "votosValidos": 178734,
+        "brancos": 2798,
+        "nulos": 5157,
+        "abstencoes": 54678,
+        "eleitorado": 247486
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 112185,
+          "percentual": 62.77,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 66549,
+          "percentual": 37.23,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58459",
+      "nome": "Laje do Muriaé",
+      "ibge": "3302304",
+      "totais": {
+        "secoesTotais": 183,
+        "secoesApuradas": 142,
+        "percentualApurado": 77.6,
+        "votosValidos": 32812,
+        "brancos": 703,
+        "nulos": 1505,
+        "abstencoes": 13264,
+        "eleitorado": 62225
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 23625,
+          "percentual": 72,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 9187,
+          "percentual": 28,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58475",
+      "nome": "Macaé",
+      "ibge": "3302403",
+      "totais": {
+        "secoesTotais": 87,
+        "secoesApuradas": 75,
+        "percentualApurado": 86.21,
+        "votosValidos": 18597,
+        "brancos": 302,
+        "nulos": 854,
+        "abstencoes": 5625,
+        "eleitorado": 29439
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 10303,
+          "percentual": 55.4,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 8294,
+          "percentual": 44.6,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58386",
+      "nome": "Macuco",
+      "ibge": "3302452",
+      "totais": {
+        "secoesTotais": 315,
+        "secoesApuradas": 270,
+        "percentualApurado": 85.71,
+        "votosValidos": 65052,
+        "brancos": 1513,
+        "nulos": 1987,
+        "abstencoes": 23384,
+        "eleitorado": 107258
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 36917,
+          "percentual": 56.75,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 28135,
+          "percentual": 43.25,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58491",
+      "nome": "Magé",
+      "ibge": "3302502",
+      "totais": {
+        "secoesTotais": 267,
+        "secoesApuradas": 222,
+        "percentualApurado": 83.15,
+        "votosValidos": 49689,
+        "brancos": 971,
+        "nulos": 2322,
+        "abstencoes": 22381,
+        "eleitorado": 90640
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 35776,
+          "percentual": 72,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 13913,
+          "percentual": 28,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58513",
+      "nome": "Mangaratiba",
+      "ibge": "3302601",
+      "totais": {
+        "secoesTotais": 126,
+        "secoesApuradas": 120,
+        "percentualApurado": 95.24,
+        "votosValidos": 27916,
+        "brancos": 616,
+        "nulos": 1194,
+        "abstencoes": 11099,
+        "eleitorado": 42867
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 15471,
+          "percentual": 55.42,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 12445,
+          "percentual": 44.58,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58530",
+      "nome": "Maricá",
+      "ibge": "3302700",
+      "totais": {
+        "secoesTotais": 108,
+        "secoesApuradas": 80,
+        "percentualApurado": 74.07,
+        "votosValidos": 18845,
+        "brancos": 474,
+        "nulos": 834,
+        "abstencoes": 7061,
+        "eleitorado": 36738
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 12099,
+          "percentual": 64.2,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 6746,
+          "percentual": 35.8,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58556",
+      "nome": "Mendes",
+      "ibge": "3302809",
+      "totais": {
+        "secoesTotais": 367,
+        "secoesApuradas": 318,
+        "percentualApurado": 86.65,
+        "votosValidos": 77521,
+        "brancos": 1674,
+        "nulos": 2998,
+        "abstencoes": 26070,
+        "eleitorado": 124945
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 40825,
+          "percentual": 52.66,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 36696,
+          "percentual": 47.34,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58467",
+      "nome": "Mesquita",
+      "ibge": "3302858",
+      "totais": {
+        "secoesTotais": 459,
+        "secoesApuradas": 350,
+        "percentualApurado": 76.25,
+        "votosValidos": 84082,
+        "brancos": 1942,
+        "nulos": 2253,
+        "abstencoes": 30825,
+        "eleitorado": 156194
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 42871,
+          "percentual": 50.99,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 41211,
+          "percentual": 49.01,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58572",
+      "nome": "Miguel Pereira",
+      "ibge": "3302908",
+      "totais": {
+        "secoesTotais": 120,
+        "secoesApuradas": 103,
+        "percentualApurado": 85.83,
+        "votosValidos": 24006,
+        "brancos": 442,
+        "nulos": 712,
+        "abstencoes": 9721,
+        "eleitorado": 40639
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 13301,
+          "percentual": 55.41,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 10705,
+          "percentual": 44.59,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58599",
+      "nome": "Miracema",
+      "ibge": "3303005",
+      "totais": {
+        "secoesTotais": 78,
+        "secoesApuradas": 73,
+        "percentualApurado": 93.59,
+        "votosValidos": 16609,
+        "brancos": 403,
+        "nulos": 700,
+        "abstencoes": 7234,
+        "eleitorado": 26656
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 8875,
+          "percentual": 53.43,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 7734,
+          "percentual": 46.57,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58610",
+      "nome": "Natividade",
+      "ibge": "3303104",
+      "totais": {
+        "secoesTotais": 333,
+        "secoesApuradas": 246,
+        "percentualApurado": 73.87,
+        "votosValidos": 59180,
+        "brancos": 1246,
+        "nulos": 1736,
+        "abstencoes": 21362,
+        "eleitorado": 113064
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 29621,
+          "percentual": 50.05,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 29559,
+          "percentual": 49.95,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58637",
+      "nome": "Nilópolis",
+      "ibge": "3303203",
+      "totais": {
+        "secoesTotais": 94,
+        "secoesApuradas": 71,
+        "percentualApurado": 75.53,
+        "votosValidos": 17631,
+        "brancos": 404,
+        "nulos": 508,
+        "abstencoes": 5501,
+        "eleitorado": 31834
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 10486,
+          "percentual": 59.47,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 7145,
+          "percentual": 40.53,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58653",
+      "nome": "Niterói",
+      "ibge": "3303302",
+      "totais": {
+        "secoesTotais": 511,
+        "secoesApuradas": 452,
+        "percentualApurado": 88.45,
+        "votosValidos": 106515,
+        "brancos": 1607,
+        "nulos": 4381,
+        "abstencoes": 41213,
+        "eleitorado": 173781
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 58848,
+          "percentual": 55.25,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 47667,
+          "percentual": 44.75,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58670",
+      "nome": "Nova Friburgo",
+      "ibge": "3303401",
+      "totais": {
+        "secoesTotais": 122,
+        "secoesApuradas": 110,
+        "percentualApurado": 90.16,
+        "votosValidos": 25268,
+        "brancos": 583,
+        "nulos": 1176,
+        "abstencoes": 10410,
+        "eleitorado": 41521
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 14108,
+          "percentual": 55.83,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 11160,
+          "percentual": 44.17,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58696",
+      "nome": "Nova Iguaçu",
+      "ibge": "3303500",
+      "totais": {
+        "secoesTotais": 134,
+        "secoesApuradas": 101,
+        "percentualApurado": 75.37,
+        "votosValidos": 23424,
+        "brancos": 540,
+        "nulos": 850,
+        "abstencoes": 9528,
+        "eleitorado": 45562
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 13802,
+          "percentual": 58.92,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 9622,
+          "percentual": 41.08,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58718",
+      "nome": "Paracambi",
+      "ibge": "3303609",
+      "totais": {
+        "secoesTotais": 210,
+        "secoesApuradas": 192,
+        "percentualApurado": 91.43,
+        "votosValidos": 49042,
+        "brancos": 974,
+        "nulos": 1916,
+        "abstencoes": 13301,
+        "eleitorado": 71348
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 32921,
+          "percentual": 67.13,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 16121,
+          "percentual": 32.87,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58750",
+      "nome": "Paraty",
+      "ibge": "3303807",
+      "totais": {
+        "secoesTotais": 322,
+        "secoesApuradas": 300,
+        "percentualApurado": 93.17,
+        "votosValidos": 72880,
+        "brancos": 1268,
+        "nulos": 1964,
+        "abstencoes": 25890,
+        "eleitorado": 109483
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 43795,
+          "percentual": 60.09,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 29085,
+          "percentual": 39.91,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58734",
+      "nome": "Paraíba do Sul",
+      "ibge": "3303708",
+      "totais": {
+        "secoesTotais": 202,
+        "secoesApuradas": 157,
+        "percentualApurado": 77.72,
+        "votosValidos": 38765,
+        "brancos": 738,
+        "nulos": 1505,
+        "abstencoes": 12364,
+        "eleitorado": 68669
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 23609,
+          "percentual": 60.9,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 15156,
+          "percentual": 39.1,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59315",
+      "nome": "Paty do Alferes",
+      "ibge": "3303856",
+      "totais": {
+        "secoesTotais": 95,
+        "secoesApuradas": 86,
+        "percentualApurado": 90.53,
+        "votosValidos": 20718,
+        "brancos": 450,
+        "nulos": 836,
+        "abstencoes": 7359,
+        "eleitorado": 32435
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 13661,
+          "percentual": 65.94,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 7057,
+          "percentual": 34.06,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58777",
+      "nome": "Petrópolis",
+      "ibge": "3303906",
+      "totais": {
+        "secoesTotais": 341,
+        "secoesApuradas": 261,
+        "percentualApurado": 76.54,
+        "votosValidos": 62191,
+        "brancos": 961,
+        "nulos": 2756,
+        "abstencoes": 22937,
+        "eleitorado": 116078
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 31235,
+          "percentual": 50.22,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 30956,
+          "percentual": 49.78,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58246",
+      "nome": "Pinheiral",
+      "ibge": "3303955",
+      "totais": {
+        "secoesTotais": 147,
+        "secoesApuradas": 125,
+        "percentualApurado": 85.03,
+        "votosValidos": 32909,
+        "brancos": 478,
+        "nulos": 1410,
+        "abstencoes": 7649,
+        "eleitorado": 49917
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 20213,
+          "percentual": 61.42,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 12696,
+          "percentual": 38.58,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58793",
+      "nome": "Piraí",
+      "ibge": "3304003",
+      "totais": {
+        "secoesTotais": 846,
+        "secoesApuradas": 726,
+        "percentualApurado": 85.82,
+        "votosValidos": 184778,
+        "brancos": 4662,
+        "nulos": 6374,
+        "abstencoes": 51015,
+        "eleitorado": 287627
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 108570,
+          "percentual": 58.76,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 76208,
+          "percentual": 41.24,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58815",
+      "nome": "Porciúncula",
+      "ibge": "3304102",
+      "totais": {
+        "secoesTotais": 123,
+        "secoesApuradas": 117,
+        "percentualApurado": 95.12,
+        "votosValidos": 28888,
+        "brancos": 655,
+        "nulos": 936,
+        "abstencoes": 9312,
+        "eleitorado": 41833
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 20799,
+          "percentual": 72,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 8089,
+          "percentual": 28,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58327",
+      "nome": "Porto Real",
+      "ibge": "3304110",
+      "totais": {
+        "secoesTotais": 102,
+        "secoesApuradas": 93,
+        "percentualApurado": 91.18,
+        "votosValidos": 24231,
+        "brancos": 552,
+        "nulos": 791,
+        "abstencoes": 5964,
+        "eleitorado": 34590
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 17447,
+          "percentual": 72,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 6784,
+          "percentual": 28,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58025",
+      "nome": "Quatis",
+      "ibge": "3304128",
+      "totais": {
+        "secoesTotais": 447,
+        "secoesApuradas": 359,
+        "percentualApurado": 80.31,
+        "votosValidos": 93598,
+        "brancos": 1377,
+        "nulos": 3883,
+        "abstencoes": 23107,
+        "eleitorado": 151863
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 51450,
+          "percentual": 54.97,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 42148,
+          "percentual": 45.03,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58122",
+      "nome": "Queimados",
+      "ibge": "3304144",
+      "totais": {
+        "secoesTotais": 479,
+        "secoesApuradas": 365,
+        "percentualApurado": 76.2,
+        "votosValidos": 96400,
+        "brancos": 1993,
+        "nulos": 3393,
+        "abstencoes": 22388,
+        "eleitorado": 162958
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 60588,
+          "percentual": 62.85,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 35812,
+          "percentual": 37.15,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58009",
+      "nome": "Quissamã",
+      "ibge": "3304151",
+      "totais": {
+        "secoesTotais": 690,
+        "secoesApuradas": 552,
+        "percentualApurado": 80,
+        "votosValidos": 140695,
+        "brancos": 3418,
+        "nulos": 5699,
+        "abstencoes": 37749,
+        "eleitorado": 234451
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 90345,
+          "percentual": 64.21,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 50350,
+          "percentual": 35.79,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58831",
+      "nome": "Resende",
+      "ibge": "3304201",
+      "totais": {
+        "secoesTotais": 395,
+        "secoesApuradas": 357,
+        "percentualApurado": 90.38,
+        "votosValidos": 93317,
+        "brancos": 1282,
+        "nulos": 2836,
+        "abstencoes": 23902,
+        "eleitorado": 134252
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 63459,
+          "percentual": 68,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 29858,
+          "percentual": 32,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58858",
+      "nome": "Rio Bonito",
+      "ibge": "3304300",
+      "totais": {
+        "secoesTotais": 277,
+        "secoesApuradas": 203,
+        "percentualApurado": 73.29,
+        "votosValidos": 53216,
+        "brancos": 1203,
+        "nulos": 1943,
+        "abstencoes": 12738,
+        "eleitorado": 94290
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 38144,
+          "percentual": 71.68,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 15072,
+          "percentual": 28.32,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58874",
+      "nome": "Rio Claro",
+      "ibge": "3304409",
+      "totais": {
+        "secoesTotais": 380,
+        "secoesApuradas": 302,
+        "percentualApurado": 79.47,
+        "votosValidos": 72231,
+        "brancos": 1292,
+        "nulos": 3292,
+        "abstencoes": 25952,
+        "eleitorado": 129310
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 37611,
+          "percentual": 52.07,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 34620,
+          "percentual": 47.93,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58890",
+      "nome": "Rio das Flores",
+      "ibge": "3304508",
+      "totais": {
+        "secoesTotais": 385,
+        "secoesApuradas": 278,
+        "percentualApurado": 72.21,
+        "votosValidos": 66777,
+        "brancos": 875,
+        "nulos": 2303,
+        "abstencoes": 24467,
+        "eleitorado": 130765
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 42403,
+          "percentual": 63.5,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 24374,
+          "percentual": 36.5,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58203",
+      "nome": "Rio das Ostras",
+      "ibge": "3304524",
+      "totais": {
+        "secoesTotais": 72,
+        "secoesApuradas": 69,
+        "percentualApurado": 95.83,
+        "votosValidos": 16944,
+        "brancos": 239,
+        "nulos": 554,
+        "abstencoes": 5834,
+        "eleitorado": 24595
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 10591,
+          "percentual": 62.51,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 6353,
+          "percentual": 37.49,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "60011",
+      "nome": "Rio de Janeiro",
+      "ibge": "3304557",
+      "totais": {
+        "secoesTotais": 9383,
+        "secoesApuradas": 5630,
+        "percentualApurado": 60,
+        "votosValidos": 1342815,
+        "brancos": 18979,
+        "nulos": 63139,
+        "abstencoes": 489262,
+        "eleitorado": 3190213
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 778833,
+          "percentual": 58,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 563982,
+          "percentual": 42,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58912",
+      "nome": "Santa Maria Madalena",
+      "ibge": "3304607",
+      "totais": {
+        "secoesTotais": 115,
+        "secoesApuradas": 107,
+        "percentualApurado": 93.04,
+        "votosValidos": 24400,
+        "brancos": 616,
+        "nulos": 995,
+        "abstencoes": 10418,
+        "eleitorado": 39152
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 17568,
+          "percentual": 72,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 6832,
+          "percentual": 28,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58939",
+      "nome": "Santo Antônio de Pádua",
+      "ibge": "3304706",
+      "totais": {
+        "secoesTotais": 695,
+        "secoesApuradas": 602,
+        "percentualApurado": 86.62,
+        "votosValidos": 141174,
+        "brancos": 2253,
+        "nulos": 5701,
+        "abstencoes": 55454,
+        "eleitorado": 236188
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 89832,
+          "percentual": 63.63,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 51342,
+          "percentual": 36.37,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59072",
+      "nome": "Sapucaia",
+      "ibge": "3305406",
+      "totais": {
+        "secoesTotais": 245,
+        "secoesApuradas": 239,
+        "percentualApurado": 97.55,
+        "votosValidos": 59233,
+        "brancos": 1483,
+        "nulos": 1958,
+        "abstencoes": 18503,
+        "eleitorado": 83214
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 34034,
+          "percentual": 57.46,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 25199,
+          "percentual": 42.54,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59099",
+      "nome": "Saquarema",
+      "ibge": "3305505",
+      "totais": {
+        "secoesTotais": 70,
+        "secoesApuradas": 51,
+        "percentualApurado": 72.86,
+        "votosValidos": 12106,
+        "brancos": 293,
+        "nulos": 578,
+        "abstencoes": 4389,
+        "eleitorado": 23835
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 6833,
+          "percentual": 56.44,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 5273,
+          "percentual": 43.56,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58424",
+      "nome": "Seropédica",
+      "ibge": "3305554",
+      "totais": {
+        "secoesTotais": 136,
+        "secoesApuradas": 124,
+        "percentualApurado": 91.18,
+        "votosValidos": 31597,
+        "brancos": 726,
+        "nulos": 1063,
+        "abstencoes": 8681,
+        "eleitorado": 46138
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 17464,
+          "percentual": 55.27,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 14133,
+          "percentual": 44.73,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59110",
+      "nome": "Silva Jardim",
+      "ibge": "3305604",
+      "totais": {
+        "secoesTotais": 222,
+        "secoesApuradas": 217,
+        "percentualApurado": 97.75,
+        "votosValidos": 50868,
+        "brancos": 959,
+        "nulos": 2439,
+        "abstencoes": 19399,
+        "eleitorado": 75362
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 28324,
+          "percentual": 55.68,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 22544,
+          "percentual": 44.32,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59137",
+      "nome": "Sumidouro",
+      "ibge": "3305703",
+      "totais": {
+        "secoesTotais": 138,
+        "secoesApuradas": 135,
+        "percentualApurado": 97.83,
+        "votosValidos": 32613,
+        "brancos": 829,
+        "nulos": 1258,
+        "abstencoes": 11083,
+        "eleitorado": 46800
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 23481,
+          "percentual": 72,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 9132,
+          "percentual": 28,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58955",
+      "nome": "São Fidélis",
+      "ibge": "3304805",
+      "totais": {
+        "secoesTotais": 561,
+        "secoesApuradas": 521,
+        "percentualApurado": 92.87,
+        "votosValidos": 133897,
+        "brancos": 3370,
+        "nulos": 5318,
+        "abstencoes": 34467,
+        "eleitorado": 190645
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 78938,
+          "percentual": 58.95,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 54959,
+          "percentual": 41.05,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58289",
+      "nome": "São Francisco de Itabapoana",
+      "ibge": "3304755",
+      "totais": {
+        "secoesTotais": 759,
+        "secoesApuradas": 646,
+        "percentualApurado": 85.11,
+        "votosValidos": 170473,
+        "brancos": 2609,
+        "nulos": 5651,
+        "abstencoes": 40891,
+        "eleitorado": 258041
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 92064,
+          "percentual": 54.01,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 78409,
+          "percentual": 45.99,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58971",
+      "nome": "São Gonçalo",
+      "ibge": "3304904",
+      "totais": {
+        "secoesTotais": 383,
+        "secoesApuradas": 300,
+        "percentualApurado": 78.33,
+        "votosValidos": 72937,
+        "brancos": 1493,
+        "nulos": 2987,
+        "abstencoes": 24552,
+        "eleitorado": 130181
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 36678,
+          "percentual": 50.29,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 36259,
+          "percentual": 49.71,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58343",
+      "nome": "São José de Ubá",
+      "ibge": "3305133",
+      "totais": {
+        "secoesTotais": 79,
+        "secoesApuradas": 70,
+        "percentualApurado": 88.61,
+        "votosValidos": 17794,
+        "brancos": 409,
+        "nulos": 768,
+        "abstencoes": 4680,
+        "eleitorado": 26692
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 9452,
+          "percentual": 53.12,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 8342,
+          "percentual": 46.88,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59331",
+      "nome": "São José do Vale do Rio Preto",
+      "ibge": "3305158",
+      "totais": {
+        "secoesTotais": 86,
+        "secoesApuradas": 70,
+        "percentualApurado": 81.4,
+        "votosValidos": 16731,
+        "brancos": 355,
+        "nulos": 602,
+        "abstencoes": 6186,
+        "eleitorado": 29331
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 8846,
+          "percentual": 52.87,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 7885,
+          "percentual": 47.13,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58998",
+      "nome": "São João da Barra",
+      "ibge": "3305000",
+      "totais": {
+        "secoesTotais": 781,
+        "secoesApuradas": 714,
+        "percentualApurado": 91.42,
+        "votosValidos": 165230,
+        "brancos": 2361,
+        "nulos": 7582,
+        "abstencoes": 67707,
+        "eleitorado": 265672
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 94671,
+          "percentual": 57.3,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 70559,
+          "percentual": 42.7,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59013",
+      "nome": "São João de Meriti",
+      "ibge": "3305109",
+      "totais": {
+        "secoesTotais": 89,
+        "secoesApuradas": 67,
+        "percentualApurado": 75.28,
+        "votosValidos": 15518,
+        "brancos": 357,
+        "nulos": 595,
+        "abstencoes": 6283,
+        "eleitorado": 30224
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 7905,
+          "percentual": 50.94,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 7613,
+          "percentual": 49.06,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59030",
+      "nome": "São Pedro da Aldeia",
+      "ibge": "3305208",
+      "totais": {
+        "secoesTotais": 423,
+        "secoesApuradas": 421,
+        "percentualApurado": 99.53,
+        "votosValidos": 104106,
+        "brancos": 2632,
+        "nulos": 3998,
+        "abstencoes": 32492,
+        "eleitorado": 143908
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 52435,
+          "percentual": 50.37,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 51671,
+          "percentual": 49.63,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59056",
+      "nome": "São Sebastião do Alto",
+      "ibge": "3305307",
+      "totais": {
+        "secoesTotais": 169,
+        "secoesApuradas": 135,
+        "percentualApurado": 79.88,
+        "votosValidos": 34201,
+        "brancos": 540,
+        "nulos": 1368,
+        "abstencoes": 9895,
+        "eleitorado": 57591
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 17422,
+          "percentual": 50.94,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 16779,
+          "percentual": 49.06,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58360",
+      "nome": "Tanguá",
+      "ibge": "3305752",
+      "totais": {
+        "secoesTotais": 431,
+        "secoesApuradas": 396,
+        "percentualApurado": 91.88,
+        "votosValidos": 100856,
+        "brancos": 1383,
+        "nulos": 2952,
+        "abstencoes": 29511,
+        "eleitorado": 146607
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 63300,
+          "percentual": 62.76,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 37556,
+          "percentual": 37.24,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59153",
+      "nome": "Teresópolis",
+      "ibge": "3305802",
+      "totais": {
+        "secoesTotais": 438,
+        "secoesApuradas": 346,
+        "percentualApurado": 79,
+        "votosValidos": 84919,
+        "brancos": 1601,
+        "nulos": 2263,
+        "abstencoes": 28810,
+        "eleitorado": 148862
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 49557,
+          "percentual": 58.36,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 35362,
+          "percentual": 41.64,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59170",
+      "nome": "Trajano de Moraes",
+      "ibge": "3305901",
+      "totais": {
+        "secoesTotais": 749,
+        "secoesApuradas": 694,
+        "percentualApurado": 92.66,
+        "votosValidos": 176814,
+        "brancos": 3438,
+        "nulos": 5331,
+        "abstencoes": 50426,
+        "eleitorado": 254713
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 90307,
+          "percentual": 51.07,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 86507,
+          "percentual": 48.93,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59196",
+      "nome": "Três Rios",
+      "ibge": "3306008",
+      "totais": {
+        "secoesTotais": 126,
+        "secoesApuradas": 113,
+        "percentualApurado": 89.68,
+        "votosValidos": 25556,
+        "brancos": 380,
+        "nulos": 1220,
+        "abstencoes": 11287,
+        "eleitorado": 42865
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 15422,
+          "percentual": 60.35,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 10134,
+          "percentual": 39.65,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59218",
+      "nome": "Valença",
+      "ibge": "3306107",
+      "totais": {
+        "secoesTotais": 126,
+        "secoesApuradas": 108,
+        "percentualApurado": 85.71,
+        "votosValidos": 28032,
+        "brancos": 675,
+        "nulos": 833,
+        "abstencoes": 7247,
+        "eleitorado": 42918
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 19617,
+          "percentual": 69.98,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 8415,
+          "percentual": 30.02,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "58084",
+      "nome": "Varre-Sai",
+      "ibge": "3306156",
+      "totais": {
+        "secoesTotais": 180,
+        "secoesApuradas": 150,
+        "percentualApurado": 83.33,
+        "votosValidos": 38532,
+        "brancos": 926,
+        "nulos": 1185,
+        "abstencoes": 10219,
+        "eleitorado": 61035
+      },
+      "candidatos": [
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 23054,
+          "percentual": 59.83,
+          "eleito": false
+        },
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 15478,
+          "percentual": 40.17,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59234",
+      "nome": "Vassouras",
+      "ibge": "3306206",
+      "totais": {
+        "secoesTotais": 633,
+        "secoesApuradas": 597,
+        "percentualApurado": 94.31,
+        "votosValidos": 144319,
+        "brancos": 2734,
+        "nulos": 6681,
+        "abstencoes": 49310,
+        "eleitorado": 215288
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 103910,
+          "percentual": 72,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 40409,
+          "percentual": 28,
+          "eleito": false
+        }
+      ]
+    },
+    {
+      "codigo": "59250",
+      "nome": "Volta Redonda",
+      "ibge": "3306305",
+      "totais": {
+        "secoesTotais": 170,
+        "secoesApuradas": 125,
+        "percentualApurado": 73.53,
+        "votosValidos": 28689,
+        "brancos": 471,
+        "nulos": 896,
+        "abstencoes": 12540,
+        "eleitorado": 57932
+      },
+      "candidatos": [
+        {
+          "numero": "91",
+          "nome": "Candidato Teste A",
+          "partido": "TESTE-A",
+          "votos": 19083,
+          "percentual": 66.52,
+          "eleito": false
+        },
+        {
+          "numero": "92",
+          "nome": "Candidata Teste B",
+          "partido": "TESTE-B",
+          "votos": 9606,
+          "percentual": 33.48,
+          "eleito": false
+        }
+      ]
+    }
+  ],
+  "desatualizado": false
+}

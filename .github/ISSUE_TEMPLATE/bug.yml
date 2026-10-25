@@ -1,0 +1,20 @@
+name: Bug
+description: Algo não funciona como esperado no app
+labels: [bug]
+body:
+  - type: textarea
+    id: descricao
+    attributes: { label: "O que aconteceu?", description: "Descreva o problema e o esperado." }
+    validations: { required: true }
+  - type: textarea
+    id: passos
+    attributes: { label: Passos para reproduzir }
+  - type: input
+    id: versao
+    attributes: { label: "Versão do app e sistema operacional" }
+    validations: { required: true }
+  - type: dropdown
+    id: modo
+    attributes:
+      label: Modo de dados
+      options: [TSE (real), Mock]

@@ -1,0 +1,11 @@
+name: Sugestão de funcionalidade
+description: Proponha uma melhoria
+labels: [enhancement]
+body:
+  - type: textarea
+    id: proposta
+    attributes: { label: "Qual a proposta?", description: "Lembre que o app deve permanecer neutro." }
+    validations: { required: true }
+  - type: textarea
+    id: motivacao
+    attributes: { label: "Por que isso é útil?" }

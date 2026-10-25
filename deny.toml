@@ -1,0 +1,29 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+[graph]
+targets = []
+
+[advisories]
+version = 2
+ignore = []
+
+[licenses]
+version = 2
+confidence-threshold = 0.8
+# Licenças compatíveis com GPL-3.0-or-later
+allow = [
+  "GPL-3.0-or-later", "GPL-3.0-only",
+  "LGPL-2.1-or-later", "LGPL-3.0-or-later",
+  "MPL-2.0",
+  "MIT", "MIT-0", "Apache-2.0", "Apache-2.0 WITH LLVM-exception",
+  "BSD-2-Clause", "BSD-3-Clause", "ISC", "Zlib", "Unlicense", "CC0-1.0",
+  "0BSD", "BSL-1.0", "Unicode-3.0", "Unicode-DFS-2016", "OpenSSL", "CDLA-Permissive-2.0",
+]
+
+[bans]
+multiple-versions = "warn"
+wildcards = "allow"
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"
+allow-registry = ["https://github.com/rust-lang/crates.io-index"]

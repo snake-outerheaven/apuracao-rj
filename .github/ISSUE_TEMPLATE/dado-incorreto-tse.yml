@@ -1,0 +1,19 @@
+name: Dado incorreto (TSE)
+description: Um número exibido difere da fonte oficial do TSE
+labels: [dados]
+body:
+  - type: markdown
+    attributes:
+      value: Antes de abrir, confira se o app não está marcado como "desatualizado".
+  - type: input
+    id: abrangencia
+    attributes: { label: Estado ou município afetado }
+    validations: { required: true }
+  - type: textarea
+    id: exibido
+    attributes: { label: "Valor exibido no app (com horário)" }
+    validations: { required: true }
+  - type: textarea
+    id: tse
+    attributes: { label: "Valor na fonte do TSE (link/captura e horário)" }
+    validations: { required: true }

@@ -1,0 +1,83 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    name: Build ${{ matrix.label }}
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - label: linux-x86_64
+            platform: ubuntu-22.04
+            args: ''
+          - label: windows-x86_64
+            platform: windows-latest
+            args: ''
+          - label: macos-aarch64
+            platform: macos-latest
+            args: '--target aarch64-apple-darwin'
+            rust_targets: aarch64-apple-darwin
+          - label: macos-x86_64
+            platform: macos-latest
+            args: '--target x86_64-apple-darwin'
+            rust_targets: x86_64-apple-darwin
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Dependências Linux
+        if: matrix.platform == 'ubuntu-22.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev \
+            librsvg2-dev patchelf libssl-dev libxdo-dev
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: 24
+          cache: npm
+      - name: Instalar toolchain Rust
+        shell: bash
+        run: |
+          rustup toolchain install stable --profile minimal
+          if [ -n "${{ matrix.rust_targets }}" ]; then rustup target add ${{ matrix.rust_targets }}; fi
+      - uses: Swatinem/rust-cache@v2.9.3
+        with:
+          workspaces: ". -> target"
+      - run: npm ci
+      - uses: tauri-apps/tauri-action@action-v1.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+        with:
+          tagName: ${{ github.ref_name }}
+          releaseName: 'apuracao-rj ${{ github.ref_name }}'
+          releaseBody: 'Veja o CHANGELOG/commits. App não oficial; dados públicos do TSE.'
+          releaseDraft: true
+          prerelease: false
+          includeUpdaterJson: true
+          args: ${{ matrix.args }}
+
+  source:
+    name: Anexar código-fonte
+    needs: release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Gerar tarball do código-fonte
+        run: git archive --format=tar.gz --prefix="apuracao-rj-${GITHUB_REF_NAME}/" -o "apuracao-rj-${GITHUB_REF_NAME}-src.tar.gz" "${GITHUB_REF_NAME}"
+      - name: Anexar à release (rascunho)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload "${GITHUB_REF_NAME}" "apuracao-rj-${GITHUB_REF_NAME}-src.tar.gz" --clobber
